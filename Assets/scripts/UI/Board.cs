@@ -131,9 +131,11 @@ public class Board : MonoBehaviour{
 
             if(p1controls && region_power > 0){
                 p1_score += region_power;
+                Debug.Log("P1 scored in region: "+string.Join( ",", patterns[i]));
             }
             if(p2controls && region_power < 0){
                 p2_score -= region_power;
+                Debug.Log("P2 scored in region: "+string.Join( ",", patterns[i]));
             }
         }
         p1ScoreDisplayer.text = p1_score.ToString();
