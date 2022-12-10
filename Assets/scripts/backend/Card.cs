@@ -10,9 +10,9 @@ public class Card : MonoBehaviour
     [SerializeField] TextMesh atkDisplayer;
     [SerializeField] Transform transform;
 
-    // public void updatePower(int newPower){
-    //     power = newPower;
-    //     atkDisplayer.Text = newPower.ToString();
-    // }
+    public void updatePower(int newPower){
+        power = newPower;
+        atkDisplayer.text = newPower.ToString();
+    }
 
 }
