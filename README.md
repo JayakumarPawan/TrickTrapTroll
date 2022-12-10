@@ -5,9 +5,9 @@ A card/board game built in Unity
 Rules/Directions:
 Game does not currently enforce rules and the UI is not very good because I'm not sure how to do certain things (click and drag)
 
-There are 3 buttons on the right hand side, Play, Discard, End Turn
+There are 3 buttons on the right hand side, Play, Discard, End Turn. Discard isnt currently useful because the game isn't complete
 
-play draws 3 cards from the deck and puts them in the choose area on the left
+Play draws 3 cards from the deck and puts them in the choose area on the left
 on each turn, both players are allowed to pick one of the three cards. Alternate turns for who gets to pick first.
 
 Each players  hand can store up to 3 cards. To pick a card, select a spot to keep that card by pressing one of the select buttons. 
